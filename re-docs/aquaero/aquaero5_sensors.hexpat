@@ -13,6 +13,7 @@ be u16 bootloader_version @ 0xd;
 be u16 hw_version @ 0xf;
 be u16 temp_sensor[8] @ 0x65;
 be u16 soft_sensor[8] @ 0x85;
+be u16 bus_sensor[4] @ 0xb5;
 be u16 temp_fan_amp[4] @ 0xbd;
 be u16 flow_sensor1 @ 0xf9;
 be u16 flow_sensor2 @ 0xfb;

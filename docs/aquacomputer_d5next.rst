@@ -16,6 +16,7 @@ Supported devices:
 * Aquacomputer Aquastream XT watercooling pump
 * Aquacomputer Aquastream Ultimate watercooling pump
 * Aquacomputer Poweradjust 3 fan controller
+* Aquacomputer Calitemp temperature sensor connected to Aquaero
 
 Author: Aleksa Savic
 
@@ -107,7 +108,7 @@ Sysfs entries
 -------------
 
 =========================== ==============================================================
-temp[1-20]_input            Physical/virtual temperature sensors (in millidegrees Celsius)
+temp[1-28]_input            Physical/virtual temperature sensors (in millidegrees Celsius)
 temp[1-4]_offset            Temperature sensor correction offset (in millidegrees Celsius)
 fan[1-8]_input              Pump/fan speed (in RPM) / Flow speed (in dL/h)
 fan5_pulses                 Quadro flow sensor pulses
